@@ -1,0 +1,66 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style>
+/* Create the animation blocks */
+.circle {
+border-radius: 50%;
+width: 200px;
+height: 200px;
+/* width and height can be anything, as long as they're equal */
+}
+@keyframes spin {
+from { transform: rotate(0deg); }
+to { transform: rotate(360deg); }
+}
+#advanced {
+z-index:-99;
+display:block;
+position:absolute;
+width:50px;
+height:50px;
+font-size:20px;
+color:#fff;
+line-height:50px;
+
+text-shadow:0 1px 0 #666;
+
+text-align:center;
+
+text-decoration:none;
+
+background-image: radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+
+left: 22px;
+
+top: 16px;
+
+}
+
+div.text1{
+font-size:15px;
+
+margin-left:10px;
+
+text-align:center;
+
+width:50px;
+
+height:50px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="text1"><div id="advanced" class="circle" ></div><div style="padding-top:25px;padding-left:5px;">1</div></div>
+
+</body>
+
+</html>
